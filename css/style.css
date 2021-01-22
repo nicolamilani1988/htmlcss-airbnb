@@ -1,15 +1,14 @@
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* regole blocchi */
 .container{
   height: 100vh;
   position: relative;
-}
-
-.maincontainer .container{
   border-bottom: 10px solid white;
   border-radius: 50px 50px 50px 50px;
 }
@@ -32,6 +31,7 @@
   text-shadow: 2px 2px #00ff00;
 }
 
+/* regole layover*/
 .layover{
   position: absolute;
   top: 0;
@@ -39,7 +39,6 @@
   right:0;
   bottom: 0;
   border-radius: 50px 50px 50px 50px;
-
 }
 
 .layover.blu{
@@ -48,13 +47,13 @@
 
 .layover.red{
   background-color: #FF000040;
-  text-shadow: 2px 2px #ff0000;
 }
 
 .layover.verde{
   background-color: #00FF0040;
 }
 
+/* regole titolo */
 .title{
   background-color: #00000090;
   font-family: 'Montserrat', sans-serif;
