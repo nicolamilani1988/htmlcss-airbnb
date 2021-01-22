@@ -6,21 +6,65 @@
 
 .container{
   height: 100vh;
+  position: relative;
+}
+
+.maincontainer .container{
+  border-bottom: 10px solid white;
+  border-radius: 50px 50px 50px 50px;
 }
 
 .container.vimercate{
   background-image: url('../img/vimercate.jpg');
   background-size: cover;
+  text-shadow: 2px 2px #0000FF;
 }
 
 .container.usmate{
   background-image: url('../img/usmate.jpg');
   background-size: cover;
-
+  text-shadow: 2px 2px #FF0000;
 }
 
 .container.concorezzo{
   background-image: url('../img/concorezzo.jpg');
   background-size: cover;
-  
+  text-shadow: 2px 2px #00ff00;
+}
+
+.layover{
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+  border-radius: 50px 50px 50px 50px;
+
+}
+
+.layover.blu{
+  background-color: #0000FF70;
+}
+
+.layover.red{
+  background-color: #FF000040;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.layover.verde{
+  background-color: #00FF0040;
+}
+
+.title{
+  background-color: #00000090;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: calc( 20px + 2vw );
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
 }
