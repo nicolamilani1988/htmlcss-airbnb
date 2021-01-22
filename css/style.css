@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+}
+
+.container.vimercate{
+  background-image: url('../img/vimercate.jpg');
+  background-size: cover;
+}
+
+.container.usmate{
+  background-image: url('../img/usmate.jpg');
+  background-size: cover;
+
+}
+
+.container.concorezzo{
+  background-image: url('../img/concorezzo.jpg');
+  background-size: cover;
+  
+}
