@@ -5,12 +5,19 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
+
 /* regole blocchi */
 .container{
   height: 100vh;
   position: relative;
-  border-bottom: 10px solid white;
-  border-radius: 50px 50px 50px 50px;
+  border-bottom: 5px solid black;
+}
+
+main *{
+  border-radius: 20px 20px 20px 20px;
 }
 
 .container.vimercate{
@@ -38,7 +45,6 @@
   left:0;
   right:0;
   bottom: 0;
-  border-radius: 50px 50px 50px 50px;
 }
 
 .layover.blu{
@@ -64,10 +70,17 @@
   top: 50%;
   left:50%;
   transform: translate(-50% , -50%);
+  color: white;
   padding: 10px;
-  border-radius: 10px 10px 10px 10px;
 }
 
-.title:hover{
+.title a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+
+.title a:hover{
   color: black;
 }
